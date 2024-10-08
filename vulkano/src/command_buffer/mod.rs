@@ -1,7 +1,7 @@
 //! Recording commands to execute on the device.
 //!
 //! With Vulkan, to get the device to perform work, even relatively simple tasks, you must create a
-//! command buffer. A command buffer is a list of commands that will executed by the device.
+//! command buffer. A command buffer is a list of commands that will be executed by the device.
 //! You must first record commands to a recording command buffer, then end the recording to turn it
 //! into an actual command buffer, and then it can be used. Depending on how a command buffer is
 //! created, it can be used only once, or reused many times.
